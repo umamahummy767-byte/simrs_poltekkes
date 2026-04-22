@@ -1,0 +1,179 @@
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    color: white;
+    padding: 12px;
+}
+
+.header-menu .title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.header-menu .menu {
+    font-size: 16px;
+    display: flex;
+    gap: 14px;
+}
+
+.header-menu .menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-menu .menu .active {
+    color: black;
+}
+
+.header-menu .button-auth button {
+    background-color: red;
+    color: white;
+    border-radius: 16px;
+    padding: 12px;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-top: 14px;
+}
+
+.menu .card-menu {
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+    border-radius: 14px;
+    padding: 12px;
+}
+
+
+.tabel-pengguna {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+
+.judul-tabel {
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    text-align: center;
+}
+
+
+.tabel-pengguna thead tr:nth-child(2) {
+    background-color: green;
+    color: white;
+}
+
+
+.tabel-pengguna th,
+.tabel-pengguna td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.form-pendaftaran {
+    width: 50%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.form-pendaftaran label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+.form-pendaftaran input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+
+.form-pendaftaran input:focus {
+    border-color: green;
+    outline: none;
+}
+
+
+.form-pendaftaran button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.form-pendaftaran button:hover {
+    background-color: darkgreen;
+}
+
+
+.tabel-rawatjalan {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+
+.tabel-rawatjalan .judul-tabel {
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    text-align: center;
+}
+.tabel-pengguna .judul-tabel {
+    background-color:green;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    text-align: center;
+}
+
+
+.tabel-rawatjalan thead tr:nth-child(2) {
+    background-color: green;
+    color: white;
+}
+
+
+.tabel-rawatjalan th,
+.tabel-rawatjalan td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
